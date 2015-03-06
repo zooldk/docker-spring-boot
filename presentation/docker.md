@@ -22,10 +22,13 @@ E.g. a UI can consist of multiple service.
 ---
 
 # Microservice - Martin Fowler
-´´
+
+***
 In short, the microservice architectural style [1] is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API. These services are built around business capabilities and independently deployable by fully automated deployment machinery. There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies.
-´´´
+***
+
 --- 
+
 ## How?
 
 1. Using spring boot as application server
@@ -53,7 +56,7 @@ In short, the microservice architectural style [1] is an approach to developing 
 
 ???
 
-* we do not need explictitomcat - we have docker!- just kill it!
+* we do not need explict tomcat - we have docker!- just kill it!
 
 * you update spring boot version and everything get updated and fits. 
 
@@ -125,6 +128,9 @@ curl http://$(boot2docker ip):8080
 * docker logs demo
 * docker stop demo
 * docker rm
+* CPU (cores)
+* Memory 
+
 
 ---
 
@@ -136,11 +142,6 @@ How to control an image - without rebuilding it?
 * docker run -e SPRING_DATA_MONGODB_URI=mongodb://192.168.59.103/userregistration 
 
 use it to deploy in different environments.. like dev, prod.. 
-
-## Control the docker instance
-
-* CPU (cores)
-* Memory 
 
 ---
 
@@ -171,13 +172,18 @@ db:
 * Remember - tune your instance AND your host system! Even docker is nice it does not tune the OS for you!
 * spring boot - also tune the tommcat for threads etc.
 
-
-
-
 ---
 
 # Questions
 ???
+
+---
+
+## Links
+
+- http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/
+- my github repo!
+
 
 ## Dependencies
 
@@ -195,7 +201,3 @@ db:
 - Java 
 - maven
 
-## Links
-
-- http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/
-- my github repo!
