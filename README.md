@@ -10,6 +10,10 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+```bash
+curl http://:8080
+```
+
 
 
 # Author
