@@ -17,9 +17,10 @@ To test:
 curl http://:8080
 ```
 
+Otherwise just follow the presentaion! :-)
 
 
 # Author
 
 Steffen Larsen
-slarsen@braintrust.dk
+Email / IM: slarsen@braintrust.dk
