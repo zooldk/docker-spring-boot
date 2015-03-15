@@ -5,11 +5,14 @@ To see the presentation, go to the 'presentation' directory and point your brows
 
 To run the demo, compile and run via maven. 
 
-```java
-mvn clean install
+```bash
+# compile it
+mvn clean install 
+# or boot it up directly:
 mvn spring-boot:run
 ```
 
+To test:
 ```bash
 curl http://:8080
 ```
