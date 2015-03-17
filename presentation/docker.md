@@ -114,7 +114,7 @@ docker run -p 8080:8080 --name demo spring-boot-maven-docker
 # Test it!
 
 * boot2docker ip
-* curl http://<docker-IP>:8080
+* curl http://[docker-IP]:8080
 * curl http://$(boot2docker ip):8080
 
 ???
