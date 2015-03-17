@@ -23,4 +23,7 @@ Otherwise just follow the presentation! :-)
 # Author
 
 Steffen Larsen
-Email / IM: slarsen@braintrust.dk
+
+Email: slarsen@braintrust.dk
+
+IM/XMPP: slarsen@braintrust.dk
