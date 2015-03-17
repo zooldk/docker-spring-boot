@@ -14,10 +14,10 @@ mvn spring-boot:run
 
 To test:
 ```bash
-curl http://:8080
+curl http://localhost:8080
 ```
 
-Otherwise just follow the presentaion! :-)
+Otherwise just follow the presentation! :-)
 
 
 # Author
