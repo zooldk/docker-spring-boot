@@ -170,9 +170,9 @@ db:
 ---
 
 # Gotchas
-* mac - using boot2docker ip not localhost
+* Mac - using boot2docker ip not localhost
 * Remember - tune your instance AND your host system! Even docker is nice it does not tune the OS for you!
-* spring boot - also tune the tommcat for threads etc.
+* Spring boot - also tune the tommcat for threads etc.
 
 ---
 
@@ -183,9 +183,8 @@ db:
 
 ## Links
 
+- https://github.com/zooldk/docker-spring-boot
 - http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/
-- my github repo!
-
 
 ## Dependencies
 
@@ -195,8 +194,6 @@ db:
 - docker-composer
 - virtualbox (mac or m$)
 - boot2docker (mac or m$)
-- (git)
-
 
 ### Spring boot
 
