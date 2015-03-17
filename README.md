@@ -25,4 +25,5 @@ Otherwise just follow the presentation! :-)
 Steffen Larsen
 
 Email: slarsen@braintrust.dk
+
 IM/XMPP: slarsen@braintrust.dk
