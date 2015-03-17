@@ -109,19 +109,21 @@ docker build -t spring-boot-maven-docker .
 docker run -p 8080:8080 --name demo spring-boot-maven-docker
 ```
 
+---
+
+# Test it!
+
+* boot2docker ip
+* curl http://<docker-IP>:8080
+* curl http://$(boot2docker ip):8080
+
 ???
 now it is running its own life on a virtual environment (mine is virtual box - on linux it would be a LXC environment)
 ???
 
-// boot2docker ip
+---
 
-# Test it!
-
-curl http://<docker-IP>:8080
-
-curl http://$(boot2docker ip):8080
-
-## Controlling it!
+# Controlling it!
 
 * docker top demo
 * docker ps
