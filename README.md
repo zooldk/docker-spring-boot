@@ -17,7 +17,7 @@ To test:
 curl http://localhost:8080
 ```
 
-Otherwise just follow the presentation! :-)
+Otherwise just follow the [presentation!](http://zooldk.github.io/docker-spring-boot/presentation/presentation.html#1) :-)
 
 
 # Author
